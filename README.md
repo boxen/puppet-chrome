@@ -6,8 +6,14 @@ Requires the `boxen` puppet module.
 
 ```puppet
 # Chrome from stable channel
-include chrome::stable
+include chrome
 
 # Chrome from dev channel
 include chrome::dev
 ```
+
+## Developing
+
+Write code.
+
+Run `script/cibuild`.
