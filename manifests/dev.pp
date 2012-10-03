@@ -1,6 +1,5 @@
-class chrome::dev {
-  package { 'Chrome':
-    provider => 'appdmg',
-    source   => 'http://dl.google.com/chrome/mac/dev/GoogleChrome.dmg';
+class chrome::dev inherits chrome {
+  Package['Chrome'] {
+    source => 'http://dl.google.com/chrome/mac/dev/GoogleChrome.dmg',
   }
 }
