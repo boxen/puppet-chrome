@@ -1,3 +1,8 @@
+# Public: Install Chrome to /Applications.
+#
+# Examples
+#
+#   include chrome
 class chrome {
   package { 'Chrome':
     provider => 'appdmg',
