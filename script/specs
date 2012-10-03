@@ -1,0 +1,11 @@
+#!/bin/sh
+
+[[ ! -f bin/rspec ]] && {
+  script/bootstrap
+}
+
+echo
+echo "Spec"
+echo "----"
+
+bin/rspec 2>/dev/null
