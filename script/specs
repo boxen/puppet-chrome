@@ -8,4 +8,6 @@ echo
 echo "Spec"
 echo "----"
 
-bin/rspec 2>/dev/null
+specs=`find spec -name '*_spec.rb' -not -path 'spec/fixtures/*' -print | tr "\n" ' '`
+
+bin/rspec ${specs} 2>/dev/null
