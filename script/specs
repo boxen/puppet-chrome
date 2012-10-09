@@ -1,6 +1,6 @@
 #!/bin/sh
 
-[[ ! -f bin/rspec ]] && {
+[ ! -f bin/rspec ] && {
   script/bootstrap
 }
 

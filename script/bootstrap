@@ -18,7 +18,7 @@ export CC=gcc
 
 bundle install --binstubs bin --path .bundle --quiet "$@"
 
-if [[ -f spec/fixtures/Puppetfile ]]; then
+if [ -f spec/fixtures/Puppetfile ]; then
   pushd spec/fixtures > /dev/null
   ../../bin/librarian-puppet install
   popd > /dev/null
