@@ -1,19 +1,22 @@
 # Chrome Puppet Module for Boxen
 
-Requires the `boxen` puppet module.
+Install [Google Chrome](), an adequate web browser.
 
 ## Usage
 
 ```puppet
-# Chrome from stable channel
+# from the stable channel
 include chrome
 
-# Chrome from dev channel
-include chrome::dev
+# from the dev channel
+include chome::dev
 ```
 
-## Developing
+## Required Puppet Modules
 
-Write code.
+* `boxen`
 
-Run `script/cibuild`.
+## Development
+
+Write code. Run `script/cibuild` to test it. Check the `script`
+directory for other useful tools.

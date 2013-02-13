@@ -4,7 +4,7 @@ describe 'chrome::dev' do
   it do
     should contain_package('Chrome').with({
       :provider => 'appdmg',
-      :source   => 'http://dl.google.com/chrome/mac/dev/GoogleChrome.dmg',
+      :source   => 'https://dl.google.com/chrome/mac/dev/GoogleChrome.dmg',
     })
   end
 end
