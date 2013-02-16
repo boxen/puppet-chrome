@@ -10,6 +10,9 @@ include chrome
 
 # from the dev channel
 include chome::dev
+
+# from the nightly channel
+include chome::canary
 ```
 
 ## Required Puppet Modules
