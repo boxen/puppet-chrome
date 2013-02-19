@@ -9,7 +9,7 @@ Install [Google Chrome](), an adequate web browser.
 include chrome
 
 # from the dev channel
-include chome::dev
+include chrome::dev
 ```
 
 ## Required Puppet Modules
