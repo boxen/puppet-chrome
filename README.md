@@ -1,5 +1,7 @@
 # Chrome Puppet Module for Boxen
 
+[![Build Status](https://travis-ci.org/boxen/puppet-chrome.png?branch=master)](https://travis-ci.org/boxen/puppet-chrome)
+
 Install [Google Chrome](), an adequate web browser.
 
 ## Usage
