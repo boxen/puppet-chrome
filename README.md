@@ -18,6 +18,9 @@ include chrome::dev
 
 # from the nightly channel
 include chrome::canary
+
+# from the chromium continuous build system
+include chrome::chromium
 ```
 
 ## Required Puppet Modules
