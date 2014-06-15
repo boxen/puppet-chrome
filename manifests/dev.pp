@@ -4,7 +4,7 @@
 #
 #   include chrome::dev
 class chrome::dev inherits chrome {
-  Package['Chrome'] {
+  package { 'Chrome Dev':
     source => 'https://dl.google.com/chrome/mac/dev/GoogleChrome.dmg',
   }
 }

@@ -4,7 +4,7 @@
 #
 #   include chrome::beta
 class chrome::beta inherits chrome {
-  Package['Chrome'] {
+  package { 'Chrome':
     source => 'https://dl.google.com/chrome/mac/beta/GoogleChrome.dmg',
   }
 }
