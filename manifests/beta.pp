@@ -3,8 +3,9 @@
 # Examples
 #
 #   include chrome::beta
-class chrome::beta inherits chrome {
-  package { 'Chrome':
-    source => 'https://dl.google.com/chrome/mac/beta/GoogleChrome.dmg',
+class chrome::beta {
+  package { 'Chrome Beta':
+    provider => 'appdmg',
+    source   => 'https://dl.google.com/chrome/mac/beta/GoogleChrome.dmg',
   }
 }
