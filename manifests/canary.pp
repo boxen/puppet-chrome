@@ -4,7 +4,7 @@
 #
 #   include chrome::canary
 class chrome::canary {
-  package { 'chrome-canary':
+  package { 'Chrome Canary':
     provider => 'appdmg',
     source   => 'https://storage.googleapis.com/chrome-canary/GoogleChromeCanary.dmg',
   }
