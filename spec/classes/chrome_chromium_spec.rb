@@ -6,7 +6,7 @@ describe 'chrome::chromium' do
   end
   it do
     should contain_package('Chromium').with({
-      :provider => 'compressed_app',
+      :provider => 'chromium',
       :source   => 'http://commondatastorage.googleapis.com/chromium-browser-continuous/Mac/LATEST/chrome-mac.zip',
     })
   end
