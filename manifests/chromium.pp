@@ -6,9 +6,9 @@
 class chrome::chromium (
   $version = latest_chromium(),
 ) {
-  # compressed_app package provider is a custom puppet-boxen provider
+  # chromium package provider is a custom provider
   package { 'Chromium':
-    provider => 'compressed_app',
+    provider => 'chromium',
     source   => "http://commondatastorage.googleapis.com/chromium-browser-continuous/Mac/${version}/chrome-mac.zip",
   }
 }
